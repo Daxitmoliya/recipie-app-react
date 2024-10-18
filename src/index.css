@@ -1,0 +1,124 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins';
+}
+.app-container 
+{
+    padding: 50px 100px;
+}
+
+/* Reset default styles for input */
+input[type="email"],
+input[type="password"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* Login Page Container */
+.yummly-login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.yummly-login-container {
+  width: 400px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Title */
+.yummly-login-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Error Message */
+.yummly-error-message {
+  color: red;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Form Inputs */
+.yummly-login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.yummly-input-email,
+.yummly-input-password {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input Hover and Focus States */
+.yummly-input-email:hover,
+.yummly-input-password:hover {
+  border-color: #bbb;
+}
+
+.yummly-input-email:focus,
+.yummly-input-password:focus {
+  border-color: #ff6700;
+  box-shadow: 0px 0px 3px rgba(255, 103, 0, 0.5);
+}
+
+/* Login Button */
+.yummly-login-btn {
+  padding: 12px;
+  background-color: #ff6700;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.yummly-login-btn:hover {
+  background-color: #e65c00;
+}
+
+/* Divider */
+.yummly-divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Google Login Button */
+.yummly-google-login-btn {
+  padding: 12px;
+  background-color: #4285F4;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.yummly-google-login-btn:hover {
+  background-color: #357ae8;
+}
